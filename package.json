@@ -7,8 +7,8 @@
   "typings": "dist/useTime.d.ts",
   "author": "rudyhuynh <rudyhuynh@>",
   "license": "MIT",
-  "repository": "github:rudyhuynh/use-time",
-  "bugs": "https://github.com/rudyhuynh/use-time/issues",
+  "repository": "github:rudyhuynh/use-time-react-hook",
+  "bugs": "https://github.com/rudyhuynh/use-time-react-hook/issues",
   "keywords": [
     "react",
     "react-hooks",
