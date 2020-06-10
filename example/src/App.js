@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { useTime } from "./useTime";
+import { useTime } from "use-time-react-hook";
 import moment from "moment";
 import "moment-duration-format";
 
@@ -12,7 +12,7 @@ const getX2 = (timeMs, radius, x0) => radius * Math.sin(getPhi(timeMs)) + x0;
 const getY2 = (timeMs, radius, y0) => -radius * Math.cos(getPhi(timeMs)) + y0;
 
 function App() {
-  const [time, initialTime, duration] = useTime();
+  const [time, initialTime, duration] = useTime({ interval: 16 });
 
   return (
     <div className="App">
