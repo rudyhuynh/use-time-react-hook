@@ -1,6 +1,6 @@
 {
   "name": "use-time",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "dist/useTime.cjs.js",
   "module": "dist/useTime.esm.js",
   "browser": "dist/useTime.umd.js",

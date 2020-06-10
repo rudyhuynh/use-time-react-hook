@@ -22,7 +22,7 @@ function App() {
           <line x1="100" y1="100" x2={getX2(time, 80, 100)} y2={getY2(time, 80, 100)} stroke="black" />
         </svg>
       </div>
-      <div>It is now {moment(time).format("HH:mm:ss.SSS A")}</div>
+      <div>{moment(time).format("HH:mm:ss A")}</div>
       <div>You have been opening this page for {moment.duration(duration).format("h [hrs], m [min], s [sec]")}</div>
     </div>
   );
