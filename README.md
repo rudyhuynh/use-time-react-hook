@@ -14,7 +14,7 @@ yarn add use-time-react-hook
 
 Examples:
 
-1. Refresh data at a latest time range:
+- Refresh data at a latest time range:
 
 ```js
 import { useTime } from "use-time-react-hook";
@@ -30,7 +30,7 @@ const App = () => {
 };
 ```
 
-2. Just get time:
+- Just get time:
 
 ```js
 import { useTime } from "use-time-react-hook";
