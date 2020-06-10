@@ -1,6 +1,6 @@
 {
   "name": "use-time-react-hook",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/useTime.cjs.js",
   "module": "dist/useTime.esm.js",
   "browser": "dist/useTime.umd.js",
