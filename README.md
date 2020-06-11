@@ -30,7 +30,7 @@ const App = () => {
 };
 ```
 
-- Just get time:
+- Just get time: [Demo](https://rudyhuynh.github.io/use-time-react-hook/)
 
 ```js
 import { useTime } from "use-time-react-hook";
