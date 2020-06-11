@@ -20,7 +20,7 @@ Examples:
 import { useTime } from "use-time-react-hook";
 
 const App = () => {
-  const [time] = useTime({ range: "last 1 minutes", interval: "1 sec" });
+  const [time] = useTime({ range: "last 1 min", interval: "1 sec" });
 
   useEffect(() => {
     refreshData();
@@ -41,3 +41,12 @@ const Clock = () => {
   return <div> Now is ${new Date(time).toString()} </div>;
 };
 ```
+
+## API
+
+#### useTime({range, interval})
+- `range` (optional): A string follows `last x y`, where `x` is number, `y` is time unit
+- `interval` (optional): A string follows `x y`, where `x` is number, `y` is time unit
+  
+#### Time unit
+-  Can be millisecond, sec, min, hour. All supported time units are defined [here](https://github.com/rudyhuynh/use-time-react-hook/blob/master/src/useTime.js#L4)
