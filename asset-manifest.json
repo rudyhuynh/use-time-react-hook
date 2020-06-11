@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.574b9ebb.chunk.css",
-    "main.js": "/static/js/main.377daf67.chunk.js",
-    "main.js.map": "/static/js/main.377daf67.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bf23439e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bf23439e.js.map",
-    "static/js/2.63369358.chunk.js": "/static/js/2.63369358.chunk.js",
-    "static/js/2.63369358.chunk.js.map": "/static/js/2.63369358.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.efc32f31df361163ff89ed88af5ce467.js": "/precache-manifest.efc32f31df361163ff89ed88af5ce467.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.574b9ebb.chunk.css.map": "/static/css/main.574b9ebb.chunk.css.map",
-    "static/js/2.63369358.chunk.js.LICENSE.txt": "/static/js/2.63369358.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/use-time-react-hook/static/css/main.329218d1.chunk.css",
+    "main.js": "/use-time-react-hook/static/js/main.75990891.chunk.js",
+    "main.js.map": "/use-time-react-hook/static/js/main.75990891.chunk.js.map",
+    "runtime-main.js": "/use-time-react-hook/static/js/runtime-main.5d04d781.js",
+    "runtime-main.js.map": "/use-time-react-hook/static/js/runtime-main.5d04d781.js.map",
+    "static/js/2.63369358.chunk.js": "/use-time-react-hook/static/js/2.63369358.chunk.js",
+    "static/js/2.63369358.chunk.js.map": "/use-time-react-hook/static/js/2.63369358.chunk.js.map",
+    "index.html": "/use-time-react-hook/index.html",
+    "precache-manifest.44adc94fd7028f13d87d33460d081c18.js": "/use-time-react-hook/precache-manifest.44adc94fd7028f13d87d33460d081c18.js",
+    "service-worker.js": "/use-time-react-hook/service-worker.js",
+    "static/css/main.329218d1.chunk.css.map": "/use-time-react-hook/static/css/main.329218d1.chunk.css.map",
+    "static/js/2.63369358.chunk.js.LICENSE.txt": "/use-time-react-hook/static/js/2.63369358.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/use-time-react-hook/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf23439e.js",
+    "static/js/runtime-main.5d04d781.js",
     "static/js/2.63369358.chunk.js",
-    "static/css/main.574b9ebb.chunk.css",
-    "static/js/main.377daf67.chunk.js"
+    "static/css/main.329218d1.chunk.css",
+    "static/js/main.75990891.chunk.js"
   ]
 }
