@@ -50,3 +50,6 @@ const Clock = () => {
   
 #### Time unit
 -  Can be millisecond, sec, min, hour. All supported time units are defined [here](https://github.com/rudyhuynh/use-time-react-hook/blob/master/src/useTime.js#L4)
+
+## LISCENCE
+MIT
