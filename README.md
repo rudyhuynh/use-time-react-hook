@@ -23,6 +23,7 @@ const App = () => {
   const [time] = useTime({ range: "last 1 min", interval: "1 sec" });
 
   useEffect(() => {
+    // refresh data of last 1 minute on each second
     refreshData();
   }, [time]);
 
