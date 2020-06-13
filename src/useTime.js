@@ -20,7 +20,13 @@ export function useTime(args = {}) {
   const { range } = args || {};
   const interval = parseInterval(args.interval || 1000);
   const initialTime = useMemo(() => Date.now(), []);
-  const [time, setTime] = useState(() => Date.now());
+  const [time, setTime] = useState(() => {
+    if (typeof range === "string") {
+      return {};
+    } else {
+      return Date.now();
+    }
+  });
 
   useEffect(() => {
     const intervalId = getWindow().setInterval(() => {
@@ -30,13 +36,13 @@ export function useTime(args = {}) {
         setTime(now);
       } else if (typeof range === "string") {
         const { from, to, error } = parseTimeQueryString(range, now);
-        if (error) console.error(new Error(error));
-        else {
+        if (error) {
+          console.error(new Error(error));
+        } else {
           if (from <= now && now <= to) {
             setTime({ from, to });
           }
         }
-        setTime();
       } else if (typeof range === "function") {
         if (range(now, initialTime)) {
           setTime(now);
